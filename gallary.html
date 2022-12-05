@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallary</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
        <!-- Favicon -->   
 	<link href="img/favicon.ico" rel="shortcut icon"/>
     <script src="https://kit.fontawesome.com/47ab3638db.js" crossorigin="anonymous"></script>
@@ -88,8 +94,14 @@
             <a class="nav-link pe-5 text-light" href="result.html">Results</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link pe-5 text-light" href="register.html">Ragistiton</a>
+            <a class="nav-link pe-5 text-light" href="register.html">
           </li>
+          <div class="row ">
+            <div class="col-sm-12 ">  
+              <button type="button" class="btn btn-danger">Ragistiton</button>        
+        </div>
+      </div>
+    </a>
             </ul>
           </div>
           
@@ -173,28 +185,105 @@
       </div>
       <!--slider end-->
       <!--Event-->
-      <div class="container text-center text-warning">
+      <div class="container text-center text-warning pt-5">
         <h1> Events</h1>
       </div> 
       <div class="container p-3">
-        <div class="std">
-        <img src="image/event/e1.jpg" class="img-thumbnail" alt="...">
-        <img src="image/event/e2.jpg" class="img-thumbnail" alt="...">
-        <img src="image/event/e4.jpg" class="img-thumbnail" alt="...">
-        <img src="image/event/e5.jpg" class="img-thumbnail" alt="...">
-        <img src="image/event/e6.jpg" class="img-thumbnail" alt="...">
-        <img src="image/event/e7.jpg" class="img-thumbnail" alt="...">
-        <img src="image/event/e4.jpg" class="img-thumbnail" alt="...">
-        <img src="image/st-st/s1o.jpg" class="img-thumbnail" alt="...">
-        <img src="image/st-st/s21.jpg" class="img-thumbnail" alt="...">
-        <img src="image/st-st/s14.jpg" class="img-thumbnail" alt="...">
-        <img src="image/st-st/s17.jpg" class="img-thumbnail" alt="...">
-        <img src="image/st-st/s15.jpg" class="img-thumbnail" alt="...">
-        <img src="image/st-st/s16.jpg" class="img-thumbnail" alt="...">
-      
-    </div>
-    <button type="button" class="btn btn-danger">View All</button>
-    </div>
+        <div class="row">
+              <div class="row g-0 text-info text-center">
+                  <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                      <div class="row g-0">
+                          <div class="col-12">
+                              <a class="d-block" href="img/gallery-5.jpg" data-lightbox="gallery">
+                                  <img class="img-fluid" src="image/event/e1.jpg" alt="">
+                              </a>
+                          </div>
+                          <div class="col-12">
+                            <a class="d-block" href="img/gallery-4.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/event/e2.jpg" alt="">
+                            </a>
+                        </div>
+                          <div class="col-12">
+                              <a class="d-block" href="img/gallery-1.jpg" data-lightbox="gallery">
+                                  <img class="img-fluid" src="image/st-st/s1o.jpg" alt="">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                      <div class="row g-0">
+                          <div class="col-12">
+                              <a class="d-block" href="img/gallery-2.jpg" data-lightbox="gallery">
+                                  <img class="img-fluid" src="	image/st-st/s18.jpg" alt="">
+                              </a>
+                          </div>
+                          <div class="col-12">
+                            <a class="d-block" href="img/gallery-4.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/event/e6.jpg" alt="">
+                            </a>
+                        </div>
+                          <div class="col-12">
+                              <a class="d-block" href="img/gallery-6.jpg" data-lightbox="gallery">
+                                  <img class="img-fluid" src="image/event/e7.jpg" alt="">
+                              </a>
+                          </div>
+                          <div class="col-12">
+                            <a class="d-block" href="img/gallery-6.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/event/e5.jpg" alt="">
+                            </a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                      <div class="row g-0">
+                          <div class="col-12">
+                              <a class="d-block" href="img/gallery-7.jpg" data-lightbox="gallery">
+                                  <img class="img-fluid" src="image/st-st/s20.jpg" alt="">
+                              </a>
+                          </div>
+                          <div class="col-12">
+                            <a class="d-block" href="img/gallery-4.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/s1o.jpg" alt="">
+                            </a>
+                        </div>
+                          <div class="col-12">
+                              <a class="d-block" href="img/gallery-3.jpg" data-lightbox="gallery">
+                                  <img class="img-fluid" src="image/st-st/s21.jpg" alt="">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                      <div class="row g-0">
+                          <div class="col-12">
+                              <a class="d-block" href="img/gallery-4.jpg" data-lightbox="gallery">
+                                  <img class="img-fluid" src="image/st-st/s14.jpg" alt="">
+                              </a>
+                          </div>
+                          <div class="col-12">
+                            <a class="d-block" href="img/gallery-4.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/s17.jpg" alt="">
+                            </a>
+                        </div>
+                          <div class="col-12">
+                              <a class="d-block" href="img/gallery-8.jpg" data-lightbox="gallery">
+                                  <img class="img-fluid" src="image/st-st/s15.jpg" alt="">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+          </div>
+          <div class="row m-2 text-center">
+            <div class="col-sm-12 ">  
+              <button type="button" class="btn btn-danger">View All</button>        
+        </div>
+          </div>
+        </div>
+  
+  
+    <!--Event close-->
       <!--Teachers-->
       <div class="container text-center text-danger">
         <h1> Teachers</h1>
@@ -219,24 +308,125 @@
       </div>      <!--gallary-->
       <div class="container  p-3">
         <div class="cource text-center text-warning pt-3 pb-5">        
-            <h1>All Teacher's Us</h1>
+            <h1>Our All Teacher's</h1>
           </div>
-        <img src="image/t3.jpg" class="img-thumbnail" alt="...">
-        <img src="image/t2.jpg" class="img-thumbnail" alt="...">
-        <img src="image/cover/co11.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/pc.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/pi.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/t.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/t1.jpg" class="img-thumbnail" alt="...">
-        <img src="image/cover/c10.jpg" class="img-thumbnail" style="width: 200px;" alt="...">
-        <img src="image/teacher/t5.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/tb.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/tbb.jpg" class="img-thumbnail" alt="...">
+        <!--carousel start-->
+        <div class="owl-carousel owl-theme">
+          <div class="container p-2">
+              <div class="img-fluid mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-sm-12">
+                    <img src="image/teacher/tsc.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="item"><div class="container p-2">
+            <div class="img-fluid mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-sm-12">
+                  <img src="image/t2.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+                </div>
+              </div>
+            </div>
+          </div></div>
+          <div class="item"><div class="container p-2">
+            <div class="img-fluid mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-sm-12">
+                  <img src="image/cover/co11.jpg" class="img rounded-start"  style="width: 200px;height: 150px;" alt="...">
+                </div>
+              
+              </div>
+            </div>
+          </div></div>
+          <div class="item"><div class="container p-2">
+            <div class="img mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-sm-12">
+                  <img src="image/teacher/pc.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+                </div>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item"><div class="container p-2">
+          <div class="img mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-sm-12">
+                <img src="image/teacher/pi.jpg" class="img-fluid rounded-start"  style="width: 200px; height: 150px;" alt="...">
+              </div>
+           
+            </div>
+          </div>
+        </div>
       </div>
-      <button type="button" class="btn btn-danger">View All</button>
+      <div class="item"><div class="container p-2">
+        <div class="img mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-sm-12">
+              <img src="image/teacher/t.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item"><div class="container p-2">
+      <div class="img mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-sm-12">
+            <img src="image/teacher/t1.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="item"><div class="container p-2">
+    <div class="img mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-sm-12">
+          <img src="image/cover/c10.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="item"><div class="container p-2">
+  <div class="img mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-sm-12">
+        <img src="image/teacher/t5.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+      </div>
+  
+    </div>
+  </div>
+</div>
+</div>
+<div class="item"><div class="container p-2">
+  <div class="img mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-sm-12">
+        <img src="image/teacher/tb.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+         
+      </div>
+         <!--carousel end-->
+      </div>
+      <div class="row m-2 text-center">
+        <div class="col-sm-12 ">  
+          <button type="button" class="btn btn-danger">View All</button>        
+    </div>
+      </div>
       <!--Teacher end-->
       <!--Student start-->
-      <div class="container text-center text-danger">
+      <div class="container data-bs-toggle text-center text-danger">
         <h1> Students</h1>
       </div> 
       <div class="row">
@@ -256,32 +446,72 @@
               </div>
         </div>
         <div class="container p-3">
-            <div class="std">
-            <img src="image/st-st/26.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/depositphotos_25377453-stock-photo-college-student-study-in-the.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s24.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s25.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s19.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s1o.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s21.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s14.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s17.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s15.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s16.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s18.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s14.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/st9.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/st4.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/st5.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/st6.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/st7.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/st8.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/st9.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s16.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s18.jpg" class="img-thumbnail" alt="...">
-            <img src="image/st-st/s14.jpg" class="img-thumbnail" alt="...">
+          <div class="container-xxl py-5 px-0">
+            <div class="row g-0 text-info text-center">
+              <h2> Gallary</h2>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <a class="d-block" href="img/gallery-5.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/depositphotos_25377453-stock-photo-college-student-study-in-the.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a class="d-block" href="img/gallery-1.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/s16.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <a class="d-block" href="img/gallery-2.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/s18.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a class="d-block" href="img/gallery-6.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/s25.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <a class="d-block" href="img/gallery-7.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/s19.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a class="d-block" href="img/gallery-3.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/s1o.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <a class="d-block" href="img/gallery-4.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/s21.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <a class="d-block" href="img/gallery-8.jpg" data-lightbox="gallery">
+                                <img class="img-fluid" src="image/st-st/st7.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button type="button " class="btn btn-danger">View All</button>
+        </div>
+        <div class="row m-2 text-center">
+          <div class="col-sm-12 ">  
+            <button type="button" class="btn btn-danger">View All</button>        
+      </div>
         </div>
    
         <!--Student start-->
@@ -349,6 +579,31 @@
   
   </footer>
       <!-- Footer section end-->
+       <!--java script start-->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+       <script type="text/javascript">
+                     $('.owl-carousel').owlCarousel({
+             loop:true,
+             nav:true,
+             responsive:{
+                 0:{
+                     items:1
+                 },
+                 300:{
+                     items:2
+                 },
+                 600:{
+                     items:3
+                 },
+                 1000:{
+                     items:4
+                 }
+             }
+         })
+       </script>
+       <!--java script end-->
       
 </body>
 </html>

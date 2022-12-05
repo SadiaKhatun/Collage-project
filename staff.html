@@ -17,8 +17,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Libre+Baskerville&family=Lobster+Two&display=swap" rel="stylesheet">
     
-  <!--style-->
-    <!--style-->
+  <!--owl carousel-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -92,8 +95,14 @@
             <a class="nav-link pe-5 text-light" href="result.html">Results</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link pe-5 text-light" href="register.html">Ragistiton</a>
+            <a class="nav-link pe-5 text-light" href="register.html">
           </li>
+          <div class="row ">
+            <div class="col-sm-12 ">  
+              <button type="button" class="btn btn-danger">Ragistiton</button>        
+        </div>
+      </div>
+    </a>
             </ul>
           </div>
           
@@ -205,67 +214,243 @@
         </div>
         
       </div>
-      <!--non department-->
-      <div class="container mt-3">
-        <div class="cource text-center text-danger">        
-          <h1>Non-department Teacher's</h1>
-        </div>
-        <div class="row p-2">
-          <div class="col-sm-3">
-            <div class="card" style="width: 16srem;">
-              <img src="image/t3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text"> Md.Jakir</br>Math</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card" style="width: 16srem;">
-              <img src="image/teacher/tb.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Md.Awanner</br>Bangla</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card" style="width: 16srem;">
-              <img src="image/teacher/pi.jpg" style="height: 170px;" class="card-img-top" salt="...">
-              <div class="card-body">
-                <p class="card-text">Md. kawsar</br> extar</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card" style="width: 16srem;">
-              <img src="image/teacher/pc.jpg" class="card-img-top" style="height: 170px;" alt="...">
-              <div class="card-body">
-                <p class="card-text">Md.Mamun </br> English</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+      <!--All department TeacherS-->
+      <div class="cource text-center text-danger">        
+        <h1>Our All Teacher</h1>
       </div>
-      <!--gallary-->
-      <div class="container  p-3">
-        <div class="cource text-center text-warning pt-3 pb-5">        
-            <h1>All Teacher's Us</h1>
+        <!--carousel start-->
+        <div class="owl-carousel owl-theme">
+          
+          <div class="container p-2 text-center text-danger">
+              <div class="img-fluid mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-sm-12">
+                    <img src="image/teacher/tsc.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+                    <h3>Awlad Hossain</h3>
+                    <div class="col-md-9">
+                      <div class="card-body text-info">
+                        <h6>UIUX Designer</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="item">
+            <div class="container text-center text-danger p-2">
+            <div class="img-fluid mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-sm-12">
+                  <img src="image/t2.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+                  <h3>Jakiya bari</h3>
+                  <div class="col-md-9">
+                    <div class="card-body text-info">
+                      <h6>UIUX Designer</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+          <div class="item"><div class="container text-danger text-center p-2">
+            <div class="img-fluid mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-sm-12">
+                  <img src="image/cover/co11.jpg" class="img rounded-start"  style="width: 200px;height: 150px;" alt="...">
+                  <h3>Md. Hossain</h3>
+                    <div class="col-md-9">
+                      <div class="card-body text-info">
+                        <h6>UIUX Designer</h6>
+                      </div>
+                    </div>
+                </div>
+              
+              </div>
+            </div>
+          </div></div>
+          <div class="item"><div class="container text-danger text-center p-2">
+            <div class="img mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-sm-12">
+                  <img src="image/teacher/pc.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+                  <h3>Awlad khan</h3>
+                  <div class="col-md-9">
+                    <div class="card-body text-info">
+                      <h6>UIUX Designer</h6>
+                    </div>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
           </div>
-        <img src="image/t3.jpg" class="img-thumbnail" alt="...">
-        <img src="image/t2.jpg" class="img-thumbnail" alt="...">
-        <img src="image/t1.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/pc.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/pi.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/t.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/t1.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/t4.jpg" class="img-thumbnail" style="height: 200px;" alt="...">
-        <img src="image/teacher/t5.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/tb.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/tbb.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/tc.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/tsc.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/tx.jpg" class="img-thumbnail" alt="...">
-        <img src="image/teacher/t1.jpg" class="img-thumbnail" alt="...">
+        </div>
+        <div class="item"><div class="container text-danger text-center p-2">
+          <div class="img mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-sm-12">
+                <img src="image/teacher/pi.jpg" class="img-fluid rounded-start"  style="width: 200px; height: 150px;" alt="...">
+                <h3>Awlad Hossain</h3>
+                <div class="col-md-9">
+                  <div class="card-body text-info">
+                    <h6>UIUX Designer</h6>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item"><div class="container text-danger text-center p-2">
+        <div class="img mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-sm-12">
+              <img src="image/teacher/t.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+              <h3>Awlad Hossain</h3>
+              <div class="col-md-9">
+                <div class="card-body text-info">
+                  <h6>UIUX Designer</h6>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item"><div class="container text-danger text-center p-2">
+      <div class="img mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-sm-12">
+            <img src="image/teacher/t1.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+            <h3>Awlad Hossain</h3>
+            <div class="col-md-9">
+              <div class="card-body text-info">
+                <h6>UIUX Designer</h6>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="item"><div class="container text-danger text-center p-2">
+    <div class="img mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-sm-12">
+          <img src="image/cover/c10.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+          <h3>Awlad Hossain</h3>
+          <div class="col-md-9">
+            <div class="card-body text-info">
+              <h6>UIUX Designer</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="item"><div class="container text-danger text-center p-2">
+  <div class="img mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-sm-12">
+        <img src="image/teacher/t5.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+        <h3>Awlad Hossain</h3>
+        <div class="col-md-9">
+          <div class="card-body text-info">
+            <h6>UIUX Designer</h6>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</div>
+</div>
+<div class="item"><div class="container text-danger text-center p-2">
+  <div class="img mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-sm-12">
+        <img src="image/teacher/tb.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+        <h3>Awlad Hossain</h3>
+        <div class="col-md-9">
+          <div class="card-body text-info">
+            <h6>UIUX Designer</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container text-center text-danger p-2">
+  <div class="img-fluid mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-sm-12">
+        <img src="image/teacher/tx.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+        <h3>Awlad Hossain</h3>
+        <div class="col-md-9">
+          <div class="card-body text-info">
+            <h6>UIUX Designer</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="item"><div class="container text-danger text-center p-2">
+<div class="img-fluid mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-sm-12">
+      <img src="image/teacher/pi.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+      <h3>Awlad Hossain</h3>
+      <div class="col-md-9">
+        <div class="card-body text-info">
+          <h6>UIUX Designer</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div></div>
+<div class="container text-center text-danger p-2">
+  <div class="img-fluid mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-sm-12">
+        <img src="image/teacher/tc.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+        <h3>Awlad Hossain</h3>
+        <div class="col-md-9">
+          <div class="card-body text-info">
+            <h6>UIUX Designer</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="item"><div class="container text-center text-danger p-2">
+<div class="img-fluid mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-sm-12">
+      <img src="image/teacher/t1.jpg" class="img-fluid rounded-start"  style="width: 200px;height: 150px;" alt="...">
+      <h3>Awlad Hossain</h3>
+      <div class="col-md-9">
+        <div class="card-body text-info">
+          <h6>UIUX Designer</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div></div>     
+      </div>
+         <!--carousel end-->
+      <div class="row m-2 text-center">
+        <div class="col-sm-12 ">  
+          <button type="button" class="btn btn-primary">View All</button>        
+    </div>
       </div>
               <!-- Footer section -->
 <footer class="footer-section">
@@ -331,5 +516,31 @@
   
   </footer>
       <!-- Footer section end-->
+      
+          <!--java script start-->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       
+          <script type="text/javascript">
+                        $('.owl-carousel').owlCarousel({
+                loop:true,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    300:{
+                        items:3
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            })
+          </script>
+          <!--java script end-->
 </body>
 </html>
