@@ -50,9 +50,9 @@
         <div class="card mb-3" style="max-width: 540px; border: none;" >
           <div class="row g-0">
             <div class="col-md-5">
-              <img src="image/images.png" class="img-fluid" alt="...">
+              <img src="image/images.png" class="img-fluid" alt="..." style="height: 100px; padding-top:20px;">
             </div>
-            <div class="col-md-7 pt-5">
+            <div class="col-md-7">
               <div class="card-body text-info text-center pe-2">
                <h2  style="font-family: 'Anton', sans-serif;
                font-family: 'Kaushan Script', cursive;
@@ -62,47 +62,81 @@
             </div>
           </div>
         </div>
+        <div class="row pe-5 ">
+          <div class="col-sm-12 pe-5">  
+            <button type="button " class="btn btn-danger">Ragistiton</button>        
       </div>
-      <div class="col-sm-5 pt-5">
-       
-        <p>   <i class="fa-solid fa-magnifying-glass-location"></i>    
-          <span>Find us :</span> 40 Baria Street 133/2, New York City, US</p>
-          <p>   <i class="fa-solid fa-square-phone"></i>    
-              <span>Phone: </span> 09945452361, 01732000010</p>
-              <p>   <i class="fa-solid fa-envelope"></i>  
-                <span>Email: </span> merrimentschoolcollage@gmail.com</p>
-              
-        
     </div>
   </div>
     <!--header end-->
     <!--nav start-->
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light " id="ftco-navbar">
-      <div class="container text-center p-2">
-        <a class="navbar-brand pe-5 text-primary mx-5" href="index.html"><i class="flaticon-university"></i> Pro Edu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span> Menu
-        </button>
-  
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul  class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-            <li class="nav-item active pe-5"><a href="home.html" class="nav-link">Home</a></li>
-            <li class="nav-item pe-5"><a href="staff.html" class="nav-link">About</a></li>
-            <li class="nav-item pe-5"><a href="staff.html" class="nav-link">Staff</a></li>
-            <li class="nav-item pe-5"><a href="cource.html" class="nav-link">Courses</a></li>
-            <li class="nav-item pe-5"><a href="gallary.html" class="nav-link">Gallary</a></li>
-            <li class="nav-item pe-5"><a href="result.html" class="nav-link">Result</a></li>
-            <li class="nav-item pe-5"><a href="contact.html" class="nav-link">Contact</a></li>
-     
-          </ul>
-          <div class="row pe-5 ">
-            <div class="col-sm-12 pe-5">  
-              <button type="button " class="btn btn-danger">Ragistiton</button>        
-        </div>
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid px-5">
+      <a class="nav-link px-3 " aria-current="page" href="home.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-3" aria-current="page" href="">About</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="staff.html">Staff</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="cource.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cource
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle" href="gallary.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gallary
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle" href="contact.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cource
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="result.html">Result</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
-        </div>
-      </div>
-    </nav>
+    </div>
+  </nav>
+</div>
+
       <!--nav close-->
        <!--slider start-->
        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -118,7 +152,7 @@
         </div>
         <div class="carousel-inner ">
           <div class="carousel-item active">
-            <img src="image/cover/co7.jpg" class="d-block w-100" style="height: 500px;" alt="...">
+            <img src="image/cover/slider-1.jpg" style="height: 500px;" class="d-block w-100" alt="...">
             <div class="carousel-caption pb-5 mb-5 d-none d-md-block " class="caption">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
@@ -186,27 +220,7 @@
             <div class="img pt-3 pb-3">
               <img src="image/National-Portal-Card-PM (1).jpeg" class="img-fluid" alt="...">
             </div>
-            <div class="location">
-              <h1>Live Location</h1>
-              <iframe class="w-100 rounded"
-              src="https://youtu.be/XGOExnzUcw8"
-              frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-              tabindex="0"></iframe>
-            </div>      
-            
-            <div class="notice bg-secondary p-2 ">
-              <h3>Notice Bord</h3>
-              <p class="text-start"><i class="fa-solid fa-caret-right "></i>
-                List of Committees for Annual Sports and Cultural Week-2022</p>
-                <p class="text-start"><i class="fa-solid fa-caret-right"></i>      
-                  Regarding Annual Sports and Cultural Week-2022.</p>
-                  <p class="text-start"><i class="fa-solid fa-caret-right"></i>           
-                    Regarding admission to class-3, class-5, class-6, class-11/HSC .</p>
               
-              <p class="text-start"><i class="fa-solid fa-caret-right"></i>       
-                Result: SSC And HSC final Exam</p>
-          
-            </div>
             <div class="card bg-secondary mt-3" >
               <div class="card-body">
                 <h5 class="card-title text-info"> School history</h5>
@@ -221,7 +235,7 @@
                      <!--pic and text start-->
     <div class="row p-1">
       <div class="col-sm-6 p-2 ">
-          <div class="card bg-secondary mb-3" style="max-width: 540px;">
+          <div class="card bg-secondary mb-3 px-3" style="max-width: 540px; height: 230px;">
               <div class="row g-0">
                 <div class="col-md-4 ">
                   <h5 style="padding-top: 10px;">Academic</h5>
@@ -242,7 +256,7 @@
                 </div>
               </div>
             </div>
-            <div class="card bg-secondary mb-3" style="max-width: 540px;">
+            <div class="card bg-secondary mb-3 px-3" style="max-width: 540px;height: 230px;">
               <div class="row g-0">
                 <div class="col-md-4">
                   
@@ -263,7 +277,7 @@
                 </div>
               </div>
             </div>
-            <div class="card bg-secondary mb-3" style="max-width: 540px;">
+            <div class="card bg-secondary mb-3 px-3" style="max-width: 540px; height: 230px;">
               <div class="row g-0">
                 <div class="col-md-4">
                   <h5 style="padding-top: 10px;">
@@ -288,7 +302,7 @@
             </div>
       </div>
       <div class="col-sm-6 p-2">
-          <div class="card bg-secondary mb-3" style="max-width: 540px;">
+          <div class="card bg-secondary mb-3 px-3" style="max-width: 540px;height: 230px; ">
               <div class="row g-0">
                 <div class="col-md-4">
                   <h5 style="padding-top: 10px;">
@@ -311,7 +325,7 @@
                 </div>
               </div>
             </div>
-            <div class="card bg-secondary mb-3" style="max-width: 540px;">
+            <div class="card bg-secondary mb-3 px-3" style="max-width: 540px; height: 230px;">
               <div class="row g-0">
                 <div class="col-md-4">
                   <h5 style="padding-top: 10px;">Syllabus and class routine</h5>
@@ -331,7 +345,7 @@
                 </div>
               </div>
             </div>
-            <div class="card bg-secondary mb-3" style="max-width: 540px;">
+            <div class="card bg-secondary mb-3 px-3" style="max-width: 540px; height: 230px;">
               <div class="row g-0">
                 <div class="col-md-4">
                   <h5 style="padding-top: 10px;">School administration</h5>
@@ -359,16 +373,8 @@
          
         </div>
         <div class="col-sm-4">
-
-          <!--minister-->
-          <div class="text-center pt-5">
-            <div class="text-center bg-success p-3 rounded-start rounded-end">
-            <h3>Prime Minister</h3>
-            </div>
-            <img src="image/teacher/Prime-Minister.jpg" class="card-img-top p-3" style="padding-right: 20px broder-none ;" alt="...">
-          </div>
           <!--head teacher-->
-          <div class="text-center pt-5">
+          <div class="text-center pt-3">
             <div class="text-center bg-success p-3 rounded-start rounded-end">
             <h3>Principal,Merriment School And Collage</h3>
             </div>
@@ -376,13 +382,18 @@
             <h3>Abdus. Samad</h3>
           </a></p>
           </div>
-          <div class="text-center pt-5">
-            <div class="text-center bg-success p-3 rounded-start rounded-end">
-            <h3> Assistant Headmistar</h3>
-            </div>
-            <img src="image/teacher/t4.jpg" class="card-img-top p-3" style="padding-right: 20px broder-none ;" alt="...">
-            <h3> Mamunur Roside</h3>
-          </a></p>
+          <div class="notice bg-secondary mb-3 p-2 text-center rounded-start rounded-end  ">
+            <h3>Notice Bord</h3>
+            <p class="text-start "><i class="fa-solid fa-caret-right "></i>
+              List of Committees for Annual Sports and Cultural Week-2022</p>
+              <p class="text-start"><i class="fa-solid fa-caret-right"></i>      
+                Regarding Annual Sports and Cultural Week-2022.</p>
+                <p class="text-start"><i class="fa-solid fa-caret-right"></i>           
+                  Regarding admission to class-3, class-5, class-6, class-11/HSC .</p>
+            
+            <p class="text-start"><i class="fa-solid fa-caret-right"></i>       
+              Result: SSC And HSC final Exam</p>
+        
           </div>
           
           <div class="card bg-secondary mb-3" style="max-width: 540px;">
@@ -623,10 +634,10 @@
               <li><a href="">Events</a></li>
               <li><a href="">Features</a></li>
             </ul>
-            <img src="image/student/s6.jpg " style="width: 90px;" alt="">
-            <img src="image/student/s2.jpg" style="width: 90px;" alt="">
-            <img src="image/student/s5.jpg" style="width: 90px;" alt="">
-            <img src="image/student/s3.jpg " style="width: 90px;" alt="">
+            <img src="image/student/s6.jpg " style="width: 100px;" alt="">
+            <img src="image/student/s2.jpg" style="width: 100px;" alt="">
+            <img src="image/student/s5.jpg" style="width: 100px;" alt="">
+            <img src="image/student/s3.jpg " style="width: 100px;" alt="">
           </div>
         </div>
         <!-- widget -->
@@ -658,12 +669,6 @@
   
   </footer>
       <!-- Footer section end-->
-      <!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.countdown.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/magnific-popup.min.js"></script>
-	<script src="js/main.js"></script>
+   
 </body>
 </html>
