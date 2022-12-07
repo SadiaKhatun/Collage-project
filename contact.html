@@ -22,7 +22,7 @@
 </head>
 <body>
         <!-- Topbar Start -->
-        <div class="container bg-light px-0">
+        <div class="container-fluid bg-light px-0">
           <div class="row g-0 d-none d-lg-flex">
               <div class="col-lg-6 ps-5 text-start">
                   <div class="h-100 d-inline-flex align-items-center text-light">
@@ -43,70 +43,110 @@
       </div>
       <!-- Topbar End -->
         <!--header start-->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-7" class="logo">
-        <div class="card mb-3" style="max-width: 540px; border: none;" >
-          <div class="row g-0">
-            <div class="col-md-5">
-              <img src="image/images.png" class="img-fluid" alt="...">
-            </div>
-            <div class="col-md-7 pt-5">
-              <div class="card-body text-info text-center pe-2" >
-               <h2 style="font-family: 'Anton', sans-serif;
-               font-family: 'Kaushan Script', cursive;
-               font-family: 'Libre Baskerville', serif;
-               font-family: 'Lobster Two', cursive;">Merriment School And Collage</h2>
-              </div>
-            </div>
+        <div class="row ">
+          <div class="col-sm-3 text-end px-3 ">
+            <img src="image/images.png" class="img-fluid" alt="..." style="height: 110px; padding-top:15px;">
           </div>
+          <div class="col-sm-5 pt-4">
+            <div class="card-body text-info text-center pe-2">
+              <h2  style="font-family: 'Anton', sans-serif;
+              font-family: 'Kaushan Script', cursive;
+              font-family: 'Libre Baskerville', serif;
+              font-family: 'Lobster Two', cursive;">Merriment School And Collage</h2>
+             </div>
+          </div>
+          <div class="col-sm-2 pt-5 text-end">
+            <div class="col-sm-12 pe-4">  
+              <a href="register.html" class="btn btn-success">Registration</a> 
         </div>
-      </div>
-      <div class="col-sm-5 pt-5" style="@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Libre+Baskerville&family=Lobster+Two&display=swap');">
-       
-        <p>   <i class="fa-solid fa-magnifying-glass-location"></i>    
-          <span>Find us :</span> 40 Baria Street 133/2, New York City, US</p>
-          <p>   <i class="fa-solid fa-square-phone"></i>    
-              <span>Phone: </span> 09945452361, 01732000010</p>
-              <p>   <i class="fa-solid fa-envelope"></i>  
-                <span>Email: </span> merrimentschoolcollage@gmail.com</p>
-              
-        
-    </div>
-  </div>
-    <!--header end-->
-     <!--nav start-->
+          </div>
+          <div class="col-sm-2 pt-5">  
+             <div class="col-sm-12 pe-5">
+              <a href="result.html" class="btn btn-success">Result</a>        
+      </div></div>
+        </div>
+  <!--header end-->
        <!--nav start-->
-       <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light " id="ftco-navbar">
-        <div class="container text-center p-2">
-          <a class="navbar-brand pe-5 text-primary mx-5" href="index.html"><i class="flaticon-university"></i> Pro Edu</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> Menu
-          </button>
-    
-          <div class="collapse navbar-collapse" id="ftco-nav">
-            <ul  class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item active pe-5"><a href="home.html" class="nav-link">Home</a></li>
-              <li class="nav-item pe-5"><a href="staff.html" class="nav-link">About</a></li>
-              <li class="nav-item pe-5"><a href="staff.html" class="nav-link">Staff</a></li>
-              <li class="nav-item pe-5"><a href="cource.html" class="nav-link">Courses</a></li>
-              <li class="nav-item pe-5"><a href="gallary.html" class="nav-link">Gallary</a></li>
-              <li class="nav-item pe-5"><a href="result.html" class="nav-link">Result</a></li>
-              <li class="nav-item pe-5"><a href="contact.html" class="nav-link">Contact</a></li>
-       
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid px-5">
+      <a class="nav-link px-3 " aria-current="page" href="home.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-3" aria-current="page" href="">About</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            <div class="row pe-5 ">
-              <div class="col-sm-12 pe-5">  
-                <button type="button " class="btn btn-danger">Ragistiton</button>        
-          </div>
-        </div>
-          </div>
-        </div>
-      </nav>
-        <!--nav close-->
+          </li>
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle" href="staff.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Staff
+            </a>
+            <ul class="dropdown-menu text-center ">
+              <li><a class="dropdown-item text-info" href="staff.html">Princepal</a></li>
+              <li><a class="dropdown-item text-info" href="staff.html">Assistant-Hademastar</a></li>
+              <li><a class="dropdown-item text-info" href="staff.html">Class-Teacher's</a></li>
+              <li><a class="dropdown-item text-info" href="staff.html">PT-Teacher</a></li>
+              <li><a class="dropdown-item text-info" href="staff.html">All-Teacher</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle" href="gallary.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Institutional activities
+            </a>
+            <ul class="dropdown-menu text-center ">
+              <li><a class="dropdown-item text-info" href="register.html">Registration</a></li>
+              <li><a class="dropdown-item text-info" href="result.html">Result</a></li>
+              <li><a class="dropdown-item text-info" href="cource.html">Cource</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="cource.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cource
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="cource.html">Praimary</a></li>
+              <li><a class="dropdown-item" href="cource.html">High-school</a></li>
+              <li><a class="dropdown-item" href="cource.html">Collagre</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle" href="gallary.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gallary
+            </a>
+            <ul class="dropdown-menu text-center ">
+              <li><a class="dropdown-item text-info" href="gallary.html">Event</a></li>
+              <li><a class="dropdown-item text-info" href="gallary.html">Student's</a></li>
+              <li><a class="dropdown-item text-info" href="gallary.html">Teacher's</a></li>
+            </ul>
+          </li>
+  
+          <li class="nav-item px-3">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="result.html">Result</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
+
       <!--nav close-->
       <!--contact section start-->
-      <div class="row">
+      <div class="row p-5">
         <!--contact-->
         <div class="col-sm-8 pt-4" style="@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Libre+Baskerville&family=Lobster+Two&display=swap');">
             <h1>Contact Us</h1>
@@ -155,7 +195,7 @@
         <!--from-->
         
         <!--pic-->
-        <div class="col-sm-4 text-center text-warning p-3">
+        <div class="col-sm-4 text-center text-warning p-5">
             <div class="col-sm-10 pt-5">
                 <div class="card" style="width: 18srem;">
                   <img src="image/teacher/Prime-Minister.jpg"  class="card-img-top" alt="...">
@@ -185,7 +225,7 @@
       <!--Conttact section end-->
         <!-- Footer section -->
         <footer class="footer-section">
-          <div class=" container mt-5 p-4 bg-dark text-white text-center">
+          <div class=" container-fluid mt-5 p-4 bg-dark text-white text-center">
             <div class="row pt-4">
               <!-- widget -->
               <div class="col-sm-12 footer-widget">
