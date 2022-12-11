@@ -55,7 +55,7 @@ text-align: justify;
     text-transform: uppercase;
   }
   .navbar ul li a:hover{
-    color: #2b9dc0;
+   background-color: #0EC8F0;
   
   }
 
