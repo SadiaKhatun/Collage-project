@@ -40,7 +40,7 @@ text-align: justify;
   /*Student Gallary*/
   /*menu*/
   .navbar {
-  
+  color: aliceblue;
   }
   .navbar ul{
     padding: 0;
@@ -55,7 +55,8 @@ text-align: justify;
     text-transform: uppercase;
   }
   .navbar ul li a:hover{
-   background-color: #0EC8F0;
+   background-color: #343a3b;
+
   
   }
   .text-white{
