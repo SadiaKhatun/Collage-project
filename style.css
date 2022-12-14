@@ -39,6 +39,9 @@ text-align: justify;
   }
   /*Student Gallary*/
   /*menu*/
+  a{
+    text-decoration: none;
+  }
   .navbar {
   color: aliceblue;
   }
@@ -51,6 +54,7 @@ text-align: justify;
   }
   .navbar ul li a{
     display: block;
+    padding: 15px 20px;
     text-transform: uppercase;
   }
   .navbar ul li a:hover{
@@ -64,3 +68,4 @@ text-decoration: none;
   .text-white a:hover{
     background-color: #181f20;
   } 
+
